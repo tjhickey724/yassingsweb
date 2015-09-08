@@ -9,6 +9,9 @@
 		</p>
 	</div>
 	<table id="gigs" class="table table-bordered table-hover">
+		<thead>
+			<tr><th>When</th><th>Where</th><th>Who</th></tr>
+		</thead>
 		<tbody>
 			{{#each gigs}}
 			{{> gig}}
@@ -20,8 +23,9 @@
 </template>
 
 <template name="gig">
-<tr><td>	  {{where}}</td>
+<tr>
 	<td>	  {{when}}</td>
-		  <td>{{guests}}</td>
+	<td>	  {{where}}</td>
+	<td>	  {{guests}}</td>
 </tr>
 </template>
