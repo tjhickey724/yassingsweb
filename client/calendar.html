@@ -1,0 +1,27 @@
+<template name="calendar">
+	<div id="calendar">
+	<div class="jumbotron">
+		<h1>Recent Performances</h1>
+		<p>
+			Recently the Yas Ishibashi Group has been performing at the Jazz Lounge in the Battery Wharf Hotel 
+			and at Thelonious Monkfish in Central Square
+			and has also been entertaining senior citizens at various assisted living facilities in the Greater Boston area.
+		</p>
+	</div>
+	<table id="gigs" class="table table-bordered table-hover">
+		<tbody>
+			{{#each gigs}}
+			{{> gig}}
+			{{/each}}
+		</tbody>
+	</table>
+</div>
+	
+</template>
+
+<template name="gig">
+<tr><td>	  {{where}}</td>
+	<td>	  {{when}}</td>
+		  <td>{{guests}}</td>
+</tr>
+</template>
