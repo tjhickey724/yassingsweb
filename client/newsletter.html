@@ -1,0 +1,28 @@
+<template name="newsletter">
+<h1>Yas Ishibashi Mailing List Signup</h1>	
+
+
+<form id="Signup">
+	E-mail Address  <input type="text" id="email"><br>
+	Date of Birth  <input type="text" id="birthdate"><br>
+	Country  <input type="text" id="country"><br>
+	Zipcode  <input type="text" id="zipcode"><br>
+	<input type="checkbox" id="getemail"> Sign me up for an email newsletter<br>
+	<input type="submit">
+</form>	  
+
+<ul>
+	{{#each mailinfo}}
+	{{> mailline}}
+	{{/each}}
+	
+</ul>
+</template>
+
+
+
+<template name="mailline">
+	<li>
+	{{email}}, {{birthdate}},  {{country}}, {{zipcode}}, {{getemail}}
+</li>	
+</template>
