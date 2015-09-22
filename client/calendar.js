@@ -1,5 +1,6 @@
 var recentGigs =
 [
+{where:"The Jazz Lounge at Battery Wharf",  when:"18-19 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 {where:"The Jazz Lounge at Battery Wharf",  when:"11-12 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 {where:"The Jazz Lounge at Battery Wharf",  when:"4-5 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
  {where:"Thelonious Monkfish",  when:"22 March 2015", guests:"Yas, Ishibashi, Jon Baboian and Bruce Gertz"},
@@ -10,6 +11,13 @@ var recentGigs =
 
 ]
 
+var upcomingGigs =
+[
+{where:"Thelonious Monkfish", when:"17th January 2016", guests:"Yas Ishibashi and Ralph Pepe"}
+];
+
+
 Template.calendar.helpers({
-	gigs:function(){return recentGigs;}
+	gigs:function(){return recentGigs;},
+	newgigs:function(){return upcomingGigs;}
 })
