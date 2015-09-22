@@ -11,12 +11,14 @@
 	<input type="submit">
 </form>	  
 
+{{#if currentUser}}
 <ul>
 	{{#each mailinfo}}
 	{{> mailline}}
 	{{/each}}
 	
 </ul>
+{{/if}}
 </template>
 
 

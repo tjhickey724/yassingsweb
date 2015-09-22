@@ -18,6 +18,7 @@ Template.newsletter.events({
 		
 		Mailinglist.insert(info);
 		console.dir(info);
+		Router.go('calendar')
 	}
 })
 
