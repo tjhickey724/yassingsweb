@@ -1,0 +1,86 @@
+<template name="booking">
+
+{{#if currentUser}}
+<ul>
+	{{#each bookinginfo}}
+	{{> bookingline}}
+	{{/each}}
+	
+</ul>
+{{/if}}
+<div class="row">
+	<div class="col-md-6">
+		<div id="booking">
+			<h1>Booking Yas Ishibashi</h1>
+		<p>
+			Yas is available as a solo performer but can also be booked as a duo, trio, or larger combo;
+			just let her know what instruments you would like in the band!
+
+
+		</p>
+		</div>
+		<form class="form" id="Signup">
+		<div class="form-group">
+			<label for="firstname">Your First Name:</label>
+			<input type="text" id="firstname" placeholder="First Name">
+		<br>
+			<label for="lastname">Your Last name</label> 
+			<input type="text" id="lastname" placeholder="LastName">
+		</div>
+		<div class="form-group">
+			<label for="email">Your Email</label> 
+			<input type="text" id="email" placeholder="...@...">
+			<br>
+			<label for="phone">Your Phone Number</label> 
+			<input type="text" id="phone" placeholder="(AAA)-LLL-NNNN">
+		</div>
+		<div class="form-group">
+			<label for="eventtype">Type of event </label>
+			<select id="eventtype">
+				<option>wedding</option>
+				<option>party</option>
+				<option>corporate event</option>
+				<option>concert</option>
+				<option>other</option>
+			</select>
+
+			<label for="combosize">Size of combo </label>
+			<select id="combosize">
+				<option>Solo: Piano and Voice</option>
+				<option>Duo: Piano/Voice and Bass </option>
+				<option>Trio</option>
+				<option>Other</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="eventdate">When will the event be held?</label> 
+			<input type="text" id="eventdate" placeholder="MM/DD/YYYY">
+<br>
+			<label for="eventlocation">Where will the event be?</label> 
+			<input type="text" id="eventlocation" placeholder="">
+		</div>
+		<div class="form-group">
+			<label for="descr">Description of your event </label><br>
+			<textarea id="descr" rows="10" cols="100%"></textarea>
+		</div>
+
+		<input class="btn btn-large btn-primary" type="submit" value="Contact">
+		</form>	  
+	</div>
+	<div class="col-md-5 col-md-offset-1">
+		<img src="images/YasAtWindowBW.jpg" width="100%">
+	</div>
+</div>
+
+
+
+</template>
+
+
+
+<template name="bookingline">
+	<li>
+	{{firstname}},{{lastname}},{{email}},{{phone}},{{eventlocation}},{{eventdate}},{{eventtype}},{{combosize}},{{descr}},
+	<span class="glyphicon glyphicon-remove remover" aria-hidden="true"></span>
+</li>	
+</template>

@@ -1,30 +1,50 @@
 <template name="calendar">
 	<div id="calendar">
 		
-		<h1>Upcoming Performances</h1>
-		<table id="gigs" class="table table-bordered table-hover">
-			<thead>
-				<tr><th>When</th><th>Where</th><th>Who</th></tr>
-			</thead>
+		<h1 class="text-center">Upcoming Events</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>The Jazz Lounge at the <br><a href="http://www.batterywharfhotelboston.com/">Battery Wharf Hotel</a></h2>
+				<img src="images/batterywharf.png" width="100%">
+				<br>
+		<table id="gigs1" class="table  table-hover">
 			<tbody>
 				{{#each newgigs}}
 				{{> gig}}
 				{{/each}}
 			</tbody>
 		</table>
+			</div>
+			<div class="col-md-6">
+				<h2>
+					The Main Stage at<br>
+					<a href="http://www.theloniousmonkfish.com/">Thelonious Monkfish</a></h2>
+				<img src="images/theloniousmonkfish.png" width="100%">
+				<br>
+				<table id="gigs2" class="table  table-hover">
+					<tbody>
+						{{#each newTMgigs}}
+						{{> gig}}
+						{{/each}}
+					</tbody>
+				</table>
+			</div>
+		</div>
 		
 		
-	<h1>Recent Performances</h1>
-	<table id="gigs" class="table table-bordered table-hover">
-		<thead>
-			<tr><th>When</th><th>Where</th><th>Who</th></tr>
-		</thead>
+	<h1 class="text-center">Recent Events</h1>
+
+	<table id="gigs3" class="table table-hover text-center">
+
 		<tbody>
 			{{#each gigs}}
-			{{> gig}}
+			{{> gig3}}
 			{{/each}}
 		</tbody>
 	</table>
+		
+
+	
 </div>
 	
 </template>
@@ -32,7 +52,14 @@
 <template name="gig">
 <tr>
 	<td>	  {{when}}</td>
-	<td>	  {{where}}</td>
+	<td>	  {{guests}}</td>
+</tr>
+</template>
+
+<template name="gig3">
+<tr>
+	<td>	  {{when}}</td>
+	<td class="text-center">	  {{where}}</td>
 	<td>	  {{guests}}</td>
 </tr>
 </template>

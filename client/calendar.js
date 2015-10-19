@@ -1,23 +1,51 @@
 var recentGigs =
 [
-{where:"The Jazz Lounge at Battery Wharf",  when:"18-19 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-{where:"The Jazz Lounge at Battery Wharf",  when:"11-12 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-{where:"The Jazz Lounge at Battery Wharf",  when:"4-5 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
- {where:"Thelonious Monkfish",  when:"22 March 2015", guests:"Yas, Ishibashi, Jon Baboian and Bruce Gertz"},
- {where:"Thelonious Monkfish",  when:"3 August 2014", guests:"Yas Ishibashi, Ralph Pepe, and Jon Wheatley"},
- {where:"Thelonious Monkfish",  when:"22 December 2013", guests:"Yas Ishibashi, Ralph Pepe, Michael Carey"},
- {where:"The Jazz Lounge at Battery Wharf",  when:"3 August 2013", guests:"Yas Ishibashi and Ralph Pepe"}
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 17 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 16 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 10 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 9 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"Private Concert: Maplewood in Weston",  when:"Fri 9 October 2015", guests:"Yas Ishibashi, Liz Horwitz, and Bo Winiker"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 26 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 19 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 18 September 2015", guests:"Yas Ishibashi and John Stein"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 12 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 11 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 5 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 4 September 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"Thelonious Monkfish",  when:"Sun 22 March 2015", guests:"Yas, Ishibashi, Jon Baboian and Bruce Gertz"},
+	{where:"Thelonious Monkfish",  when:"Sun 3 August 2014", guests:"Yas Ishibashi, Ralph Pepe, and Jon Wheatley"},
+	{where:"Thelonious Monkfish",  when:"Sun 22 December 2013", guests:"Yas Ishibashi, Ralph Pepe, Michael Carey"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 3 August 2013", guests:"Yas Ishibashi and Ralph Pepe"}
 
 
 ]
 
 var upcomingGigs =
 [
-{where:"Thelonious Monkfish", when:"17th January 2016", guests:"Yas Ishibashi and Ralph Pepe"}
+
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 23 October 2015", guests:"Yas Ishibashi and Dave Landoni (bass)"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 24 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 30-31 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 27 November 2015", guests:"Yas Ishibashi and Ralph Pepe, featuring Joe Cohn (guitar) and Shaye Cohn (coronet)"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 28 November 2015", guests:"Yas Ishibashi and Ralph Pepe, featuring Shaye Cohn (coronet)"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 4-5 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 11-12 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 18-19 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 25-26 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 1-2 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+];
+
+var upcomingTMGigs =
+[
+	{where:"Thelonious Monkfish", when:"Sun 17 January 2016", guests:"Yas Ishibashi, Ralph Pepe, and John Baboian"}
 ];
 
 
 Template.calendar.helpers({
 	gigs:function(){return recentGigs;},
+	newTMgigs:function(){return upcomingTMGigs;},
 	newgigs:function(){return upcomingGigs;}
 })

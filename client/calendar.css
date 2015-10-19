@@ -1,0 +1,9 @@
+.location {
+	display:none;
+}
+
+#calendar tbody {
+	height:150px;
+	display:block;
+	overflow:scroll;
+}

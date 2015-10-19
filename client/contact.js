@@ -1,4 +1,4 @@
-Template.newsletter.events({
+Template.contact.events({
 	'submit #Signup': function(event){
 		event.preventDefault();
 		var email= $("#email").val();
@@ -18,12 +18,12 @@ Template.newsletter.events({
 		
 		Mailinglist.insert(info);
 		console.dir(info);
-		Router.go('calendar')
+		Router.go('thanks')
 	}
 })
 
 
-Template.newsletter.helpers({
+Template.contact.helpers({
 	mailinfo: function(){
 		return Mailinglist.find();
 	}
