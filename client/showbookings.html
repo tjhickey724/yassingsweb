@@ -1,0 +1,26 @@
+<template name="showbookings">
+	<table class="table table-striped">
+		<thead>
+			<tr><td>firstname</td><td>lastname</td><td>email</td><td>phone</td><td>eventsize</td><td>combosize</td><td>eventdate</td><td>eventlocation</td><td>desc</td></tr>
+		</thead>
+		<tbody>
+			{{#each brequests}}
+			{{>brequest}}
+			{{/each}}
+		</tbody>
+	</table>
+</template>
+
+<template name="brequest">
+	<tr>
+		<td>{{firstname}}</td>
+		<td>{{lastname}}</td>
+		<td>{{email}}</td>
+		<td>{{phone}}</td>
+		<td>{{eventtype}}</td>
+		<td>{{combosize}}</td>
+		<td>{{eventdate}}</td>
+		<td>{{eventlocation}}</td>
+		<td>{{desc}}</td>
+	</tr>
+</template>
