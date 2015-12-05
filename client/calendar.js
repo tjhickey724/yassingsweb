@@ -1,5 +1,5 @@
 var recentGigs =
-[	 
+[	
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 4 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 28 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	
