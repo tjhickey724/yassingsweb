@@ -1,5 +1,19 @@
 var recentGigs =
-[
+[	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 4 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 28 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 27 November 2015", guests:"Yas Ishibashi and Ralph Pepe, featuring Joe Cohn (guitar) and Shaye Cohn (coronet)"},
+	{where:"Private party",  when:"Thu 26 November 2015", guests:"Yas Ishibashi"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 30-31 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 24 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 23 October 2015", guests:"Yas Ishibashi and Dave Landoni (bass)"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 17 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 16 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 10 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
@@ -23,15 +37,9 @@ var recentGigs =
 var upcomingGigs =
 [
 
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 23 October 2015", guests:"Yas Ishibashi and Dave Landoni (bass)"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 24 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 30-31 October 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 27 November 2015", guests:"Yas Ishibashi and Ralph Pepe, featuring Joe Cohn (guitar) and Shaye Cohn (coronet)"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 28 November 2015", guests:"Yas Ishibashi and Ralph Pepe, featuring Shaye Cohn (coronet)"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 4-5 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+
+
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 5 December 2015", guests:"Yas Ishibashi and David Landoni"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 11-12 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 18-19 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 25-26 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},

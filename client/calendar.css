@@ -2,8 +2,8 @@
 	display:none;
 }
 
-#calendar tbody {
-	height:150px;
+#calendar #gigs1 tbody {
+	height:250px;
 	display:block;
 	overflow:scroll;
 }
