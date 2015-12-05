@@ -1,7 +1,11 @@
 <template name="showbookings">
 	<table class="table table-striped">
 		<thead>
-			<tr><td>firstname</td><td>lastname</td><td>email</td><td>phone</td><td>eventsize</td><td>combosize</td><td>eventdate</td><td>eventlocation</td><td>desc</td></tr>
+			<tr><td>firstname</td><td>lastname</td>
+				
+				<td>email</td><td>phone</td><td>eventsize</td><td>combosize</td><td>eventdate</td><td>eventlocation</td><td>desc</td>
+				<td>booking date</td>
+			</tr>
 		</thead>
 		<tbody>
 			{{#each brequests}}
@@ -15,6 +19,7 @@
 	<tr>
 		<td>{{firstname}}</td>
 		<td>{{lastname}}</td>
+		
 		<td>{{email}}</td>
 		<td>{{phone}}</td>
 		<td>{{eventtype}}</td>
@@ -22,5 +27,6 @@
 		<td>{{eventdate}}</td>
 		<td>{{eventlocation}}</td>
 		<td>{{descr}}</td>
+		<td>{{bookingDate}}</td>
 	</tr>
 </template>

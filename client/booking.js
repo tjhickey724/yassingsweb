@@ -10,11 +10,13 @@ Template.booking.events({
 		var eventdate= $("#eventdate").val();
 		var eventlocation= $("#eventlocation").val();
 		var descr= $("#descr").val();
+		var bookingDate = new Date();
 		
 		
 		var info={
 			firstname:firstname,
 			lastname:lastname,
+			bookingDate:bookingDate,
 			email:email,
 			phone:phone,
 			eventtype:eventtype,
