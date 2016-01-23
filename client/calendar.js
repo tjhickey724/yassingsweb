@@ -1,5 +1,14 @@
 var recentGigs =
 [	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 15-16 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+    {where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 8-9 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 1-2 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 26 December 2015", guests:"John Baboian and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 18-19 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 11-12 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 5 December 2015", guests:"Yas Ishibashi and David Landoni"},
+
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri 4 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 28 November 2015", guests:"Yas Ishibashi and Ralph Pepe"},
 	
@@ -36,14 +45,14 @@ var recentGigs =
 
 var upcomingGigs =
 [
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 22-23 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 27-28 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 
 
 
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 5 December 2015", guests:"Yas Ishibashi and David Landoni"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 11-12 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 18-19 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 25-26 December 2015", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 1-2 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 ];
 
 var upcomingTMGigs =
