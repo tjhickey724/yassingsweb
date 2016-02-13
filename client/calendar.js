@@ -1,5 +1,9 @@
 var recentGigs =
 [	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 22-23 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+
+	{where:"Thelonious Monkfish", when:"Sun 17 January 2016", guests:"Yas Ishibashi, Ralph Pepe, and John Baboian"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 15-16 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
     {where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 8-9 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 1-2 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
@@ -45,11 +49,13 @@ var recentGigs =
 
 var upcomingGigs =
 [
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 22-23 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	//{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 27-28 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 5-6 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 12-13 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 19-20 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 26-27 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 
 
 
@@ -57,7 +63,7 @@ var upcomingGigs =
 
 var upcomingTMGigs =
 [
-	{where:"Thelonious Monkfish", when:"Sun 17 January 2016", guests:"Yas Ishibashi, Ralph Pepe, and John Baboian"}
+
 ];
 
 
