@@ -1,5 +1,10 @@
 var recentGigs =
 [	
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+	{where:"The Maplewood at Weston", when:"Mon 22 February 2016", guests:"Boston Impromptu: Yas, Ralph, and Dorian"},
+
+	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
+
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 6-7 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 22-23 January 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 
@@ -45,12 +50,10 @@ var recentGigs =
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Sat 3 August 2013", guests:"Yas Ishibashi and Ralph Pepe"}
 
 
-]
+];
 
 var upcomingGigs =
 [
-	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 13-14 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
-	//{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 20-21 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 27-28 February 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 5-6 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
 	{where:"The Jazz Lounge at Battery Wharf",  when:"Fri/Sat 12-13 March 2016", guests:"Yas Ishibashi and Ralph Pepe"},
